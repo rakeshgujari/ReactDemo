@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C0CAD5620CDAB370004D153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD5520CDAB370004D153 /* AppDelegate.swift */; };
-		7C0CAD5820CDAB370004D153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD5720CDAB370004D153 /* ViewController.swift */; };
-		7C0CAD5B20CDAB370004D153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CAD5920CDAB370004D153 /* Main.storyboard */; };
+		2D36080484D4CE4C549F46C3 /* Pods_ReactDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B479A5F4DB6A6392F31CBFF5 /* Pods_ReactDemo.framework */; };
 		7C0CAD5D20CDAB370004D153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CAD5C20CDAB370004D153 /* Assets.xcassets */; };
-		7C0CAD6020CDAB370004D153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CAD5E20CDAB370004D153 /* LaunchScreen.storyboard */; };
+		7C0CAD6820CDAECB0004D153 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CAD6720CDAECB0004D153 /* Info.plist */; };
+		7C0CAD8020CDAF2E0004D153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD6A20CDAF250004D153 /* AppDelegate.swift */; };
+		7C0CAD8120CDAF2E0004D153 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD6C20CDAF270004D153 /* AppConstants.swift */; };
+		7C0CAD8220CDAF2E0004D153 /* ReactBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD6E20CDAF270004D153 /* ReactBridge.swift */; };
+		7C0CAD8320CDAF2E0004D153 /* ReactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD6F20CDAF270004D153 /* ReactManager.swift */; };
+		7C0CAD8420CDAF2E0004D153 /* ReactManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD7120CDAF270004D153 /* ReactManagerBridge.m */; };
+		7C0CAD8520CDAF2E0004D153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CAD7520CDAF280004D153 /* LaunchScreen.storyboard */; };
+		7C0CAD8620CDAF2E0004D153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CAD7720CDAF280004D153 /* Main.storyboard */; };
+		7C0CAD8720CDAF2E0004D153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD7A20CDAF280004D153 /* ViewController.swift */; };
+		7C0CAD8820CDAF2E0004D153 /* ReactContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD7B20CDAF280004D153 /* ReactContainerVC.swift */; };
+		7C0CAD8920CDAF2E0004D153 /* ReactBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0CAD7D20CDAF2A0004D153 /* ReactBO.swift */; };
+		7C0CAD8A20CDAF2E0004D153 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CAD7E20CDAF2C0004D153 /* main.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C407FF2B13D9B4D1BD4B928 /* Pods-ReactDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactDemo/Pods-ReactDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7C0CAD5220CDAB370004D153 /* ReactDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C0CAD5520CDAB370004D153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C0CAD5720CDAB370004D153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C0CAD5A20CDAB370004D153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C0CAD5C20CDAB370004D153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C0CAD5F20CDAB370004D153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C0CAD6120CDAB370004D153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0CAD6720CDAECB0004D153 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0CAD6A20CDAF250004D153 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C0CAD6C20CDAF270004D153 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		7C0CAD6E20CDAF270004D153 /* ReactBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactBridge.swift; sourceTree = "<group>"; };
+		7C0CAD6F20CDAF270004D153 /* ReactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactManager.swift; sourceTree = "<group>"; };
+		7C0CAD7020CDAF270004D153 /* ReactDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReactDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7C0CAD7120CDAF270004D153 /* ReactManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactManagerBridge.m; sourceTree = "<group>"; };
+		7C0CAD7620CDAF280004D153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C0CAD7820CDAF280004D153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C0CAD7A20CDAF280004D153 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C0CAD7B20CDAF280004D153 /* ReactContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactContainerVC.swift; sourceTree = "<group>"; };
+		7C0CAD7D20CDAF2A0004D153 /* ReactBO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactBO.swift; sourceTree = "<group>"; };
+		7C0CAD7E20CDAF2C0004D153 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		86F79BB653029BAAC2662323 /* Pods-ReactDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactDemo/Pods-ReactDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B479A5F4DB6A6392F31CBFF5 /* Pods_ReactDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D36080484D4CE4C549F46C3 /* Pods_ReactDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BA1ED6DA1E2F46CB48AC08A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C407FF2B13D9B4D1BD4B928 /* Pods-ReactDemo.debug.xcconfig */,
+				86F79BB653029BAAC2662323 /* Pods-ReactDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C0CAD4920CDAB370004D153 = {
 			isa = PBXGroup;
 			children = (
 				7C0CAD5420CDAB370004D153 /* ReactDemo */,
 				7C0CAD5320CDAB370004D153 /* Products */,
+				3BA1ED6DA1E2F46CB48AC08A /* Pods */,
+				857529FE098DEEA205E98095 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,102 @@
 		7C0CAD5420CDAB370004D153 /* ReactDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7C0CAD5520CDAB370004D153 /* AppDelegate.swift */,
-				7C0CAD5720CDAB370004D153 /* ViewController.swift */,
-				7C0CAD5920CDAB370004D153 /* Main.storyboard */,
+				7C0CAD6920CDAF250004D153 /* Main */,
+				7C0CAD7E20CDAF2C0004D153 /* main.jsbundle */,
+				7C0CAD7F20CDAF2E0004D153 /* Model */,
+				7C0CAD6B20CDAF270004D153 /* Utils */,
+				7C0CAD7220CDAF280004D153 /* View */,
+				7C0CAD7C20CDAF2A0004D153 /* ViewModel */,
+				7C0CAD6720CDAECB0004D153 /* Info.plist */,
 				7C0CAD5C20CDAB370004D153 /* Assets.xcassets */,
-				7C0CAD5E20CDAB370004D153 /* LaunchScreen.storyboard */,
-				7C0CAD6120CDAB370004D153 /* Info.plist */,
 			);
 			path = ReactDemo;
+			sourceTree = "<group>";
+		};
+		7C0CAD6920CDAF250004D153 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7C0CAD6A20CDAF250004D153 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7C0CAD6B20CDAF270004D153 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7C0CAD6C20CDAF270004D153 /* AppConstants.swift */,
+				7C0CAD6D20CDAF270004D153 /* ReactNativeUtils */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7C0CAD6D20CDAF270004D153 /* ReactNativeUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7C0CAD6E20CDAF270004D153 /* ReactBridge.swift */,
+				7C0CAD6F20CDAF270004D153 /* ReactManager.swift */,
+				7C0CAD7020CDAF270004D153 /* ReactDemo-Bridging-Header.h */,
+				7C0CAD7120CDAF270004D153 /* ReactManagerBridge.m */,
+			);
+			path = ReactNativeUtils;
+			sourceTree = "<group>";
+		};
+		7C0CAD7220CDAF280004D153 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C0CAD7320CDAF280004D153 /* Cells */,
+				7C0CAD7420CDAF280004D153 /* StoryBoard */,
+				7C0CAD7920CDAF280004D153 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C0CAD7320CDAF280004D153 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7C0CAD7420CDAF280004D153 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				7C0CAD7520CDAF280004D153 /* LaunchScreen.storyboard */,
+				7C0CAD7720CDAF280004D153 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		7C0CAD7920CDAF280004D153 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C0CAD7A20CDAF280004D153 /* ViewController.swift */,
+				7C0CAD7B20CDAF280004D153 /* ReactContainerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7C0CAD7C20CDAF2A0004D153 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7C0CAD7D20CDAF2A0004D153 /* ReactBO.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7C0CAD7F20CDAF2E0004D153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		857529FE098DEEA205E98095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B479A5F4DB6A6392F31CBFF5 /* Pods_ReactDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C0CAD6420CDAB370004D153 /* Build configuration list for PBXNativeTarget "ReactDemo" */;
 			buildPhases = (
+				8D0997F0A8FBCDCEA8B31664 /* [CP] Check Pods Manifest.lock */,
 				7C0CAD4E20CDAB370004D153 /* Sources */,
 				7C0CAD4F20CDAB370004D153 /* Frameworks */,
 				7C0CAD5020CDAB370004D153 /* Resources */,
+				585285F91402FFD25A547FF5 /* [CP] Embed Pods Frameworks */,
+				869E54EDEAA41A653F89147D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,41 +246,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C0CAD6020CDAB370004D153 /* LaunchScreen.storyboard in Resources */,
+				7C0CAD8520CDAF2E0004D153 /* LaunchScreen.storyboard in Resources */,
+				7C0CAD6820CDAECB0004D153 /* Info.plist in Resources */,
+				7C0CAD8A20CDAF2E0004D153 /* main.jsbundle in Resources */,
 				7C0CAD5D20CDAB370004D153 /* Assets.xcassets in Resources */,
-				7C0CAD5B20CDAB370004D153 /* Main.storyboard in Resources */,
+				7C0CAD8620CDAF2E0004D153 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		585285F91402FFD25A547FF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactDemo/Pods-ReactDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/GLog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactDemo/Pods-ReactDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869E54EDEAA41A653F89147D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactDemo/Pods-ReactDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0997F0A8FBCDCEA8B31664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C0CAD4E20CDAB370004D153 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C0CAD5820CDAB370004D153 /* ViewController.swift in Sources */,
-				7C0CAD5620CDAB370004D153 /* AppDelegate.swift in Sources */,
+				7C0CAD8920CDAF2E0004D153 /* ReactBO.swift in Sources */,
+				7C0CAD8720CDAF2E0004D153 /* ViewController.swift in Sources */,
+				7C0CAD8020CDAF2E0004D153 /* AppDelegate.swift in Sources */,
+				7C0CAD8420CDAF2E0004D153 /* ReactManagerBridge.m in Sources */,
+				7C0CAD8220CDAF2E0004D153 /* ReactBridge.swift in Sources */,
+				7C0CAD8120CDAF2E0004D153 /* AppConstants.swift in Sources */,
+				7C0CAD8820CDAF2E0004D153 /* ReactContainerVC.swift in Sources */,
+				7C0CAD8320CDAF2E0004D153 /* ReactManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C0CAD5920CDAB370004D153 /* Main.storyboard */ = {
+		7C0CAD7520CDAF280004D153 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7C0CAD5A20CDAB370004D153 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7C0CAD5E20CDAB370004D153 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C0CAD5F20CDAB370004D153 /* Base */,
+				7C0CAD7620CDAF280004D153 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7C0CAD7720CDAF280004D153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C0CAD7820CDAF280004D153 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +465,7 @@
 		};
 		7C0CAD6520CDAB370004D153 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C407FF2B13D9B4D1BD4B928 /* Pods-ReactDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +480,7 @@
 		};
 		7C0CAD6620CDAB370004D153 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F79BB653029BAAC2662323 /* Pods-ReactDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

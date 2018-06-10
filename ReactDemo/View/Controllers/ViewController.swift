@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         if(!valueInputField.text!.isEmpty) {
             ReactBO.default.saveData(valueInputField.text!, handler: { (result) in
                 if(result) {
+                    valueInputField.text = ""
                     self.performSegue(withIdentifier: AppConstants.Segue.ReactSegue, sender: self)
                 }
             })

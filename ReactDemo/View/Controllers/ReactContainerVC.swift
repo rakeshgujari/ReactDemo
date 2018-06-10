@@ -18,9 +18,9 @@ class ReactContainerVC: UIViewController {
         super.viewDidLoad()
 
     
-    let urlForReact = Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+    //let urlForReact = Bundle.main.url(forResource: "main", withExtension: "jsbundle")
         
-    //URL(string: "http://localhost:8081/index.bundle?platform=ios")
+    let urlForReact = URL(string: "http://localhost:8081/index.ios.bundle?platform=ios")
         
        rnView = RCTRootView(
             bundleURL: urlForReact!,
